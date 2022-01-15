@@ -1,0 +1,82 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	/*font-family: 'Mulish', sans-serif;*/
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#enzyme-pannel-container{
+	width: 100%;
+	height: 75vh;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 40px 0px;
+	overflow: visible;
+	justify-content: center;
+}
+
+.enzyme{
+	width: 80%;
+	height: 33%;
+	display: flex;
+}
+
+.enzyme-photo{
+	min-width: 170px;
+	width: 15%;
+	height: 100%;
+}
+
+.enzyme-photo img{
+	width: 110%;
+}
+
+.enzyme-name{
+	padding: 15px;	
+}
+
+#enzyme2 .enzyme-name{
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#enzyme3 .enzyme-name{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#enzyme2 .enzyme-photo img{
+	position: relative;
+	top: -35px;
+}
+
+#enzyme1 span{
+	color: #2C9E4B;
+	cursor: pointer;
+}
+
+#enzyme2 span{
+	color: #0273A3;
+	cursor: pointer;
+}
+
+#enzyme3 span{
+	color: #D14444;
+	cursor: pointer;
+}
+
+#enzyme2{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+
+
+
