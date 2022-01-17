@@ -1,7 +1,7 @@
 *{
 	padding: 0px;
 	margin: 0px;
-	/*box-sizing: border-box;*/
+	box-sizing: border-box;
 	/*font-family: 'Mulish', sans-serif;*/
     font-family: 'Open Sans', sans-serif;
 }
@@ -74,6 +74,121 @@
 	display: flex;
 	justify-content: flex-end;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page2{
+	width: 100%;
+	height: fit-content;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#page2-det1{
+	width: 75%;
+	padding: 15px;
+	margin: 50px 0px;
+	letter-spacing: 2px;
+	height: fit-content;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+#page2-table{
+	width: 75%;
+	margin: 50px 0px;
+	height: fit-content;
+}
+
+#page2-det2{
+	width: 65%;
+	padding: 15px;
+	margin: 50px 0px;
+	letter-spacing: 2px;
+	height: fit-content;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#page2-det2 p{
+	margin: 20px 0px;
+	line-height: 30px;
+}
+
+
+#page2-det2 ul{
+	line-height: 40px;
+}
+
+#page2-table table{
+	width: 100%;
+	border-collapse: separate;
+}
+
+#page2-table table tr td{
+	text-align: center;
+	border-bottom: 1px solid grey;
+}
+#page2-table table tr{
+	height: 60px;
+	border-bottom: 1px solid grey;
+}
+
+#page2-table table tr th{
+	color: white;
+	background-color: #006C9A;
+}
+
+#page2-table table tr th:nth-child(1){
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+#page2-table table tr th:last-child{
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,6 +294,10 @@
 }
 
 
+
+
+
+
 @media screen and (max-width: 800px){
 
 	#s3-table-rows{
@@ -188,5 +307,16 @@
 
 	#s3-heading{
 		font-size: 1.8rem;
+	}
+}
+
+
+@media screen and (max-width: 750px){
+	#page2-table{
+		width: 90%;
+	}
+
+	#page2-table table tr{
+		font-size: 12px;
 	}
 }
